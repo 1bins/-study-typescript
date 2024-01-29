@@ -1,0 +1,9 @@
+// compile할 때 부가적인 옵션 설정
+// https://www.typescriptlang.org/tsconfig
+{
+    "compilerOptions": {
+        "allowJs": true,    //프로젝트 안에 JS 허용
+        "checkJs": true,    //@ts-check
+        "noImplicitAny": true,  // 모든 타입에 최소한 Any타입이라도 넣겠다
+    }
+}

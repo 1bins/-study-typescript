@@ -1,0 +1,4 @@
+* ts -> js 변환방법
+
+npm i typescript -g
+tsc 파일명(index.js)

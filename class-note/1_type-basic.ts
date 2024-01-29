@@ -26,3 +26,6 @@ let person2: {name: string, age: number} = {
 
 // TS 진위값
 let show: boolean = true;
+
+// return 값이 없는 타입
+const addTodo = ():void => {}

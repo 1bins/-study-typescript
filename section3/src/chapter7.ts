@@ -17,9 +17,9 @@ function func(value: number | string | Date | null | Person) {
     console.log(value.toFixed());
   } else if (typeof value === "string") {
     console.log(value.toUpperCase());
-  } else if (value instanceof Date) { // value가 Date 객체인지 확인
+  } else if (value instanceof Date) { // value가 Date 객체인지 확인 || Date는 자바스크립트의 클래스. instaceof 사용가능
     console.log(value.getTime());
-  } else if (value && "age" in value) {
+  } else if (value && "age" in value) { // value라는 값에 age 프로퍼티가 있는지 확인
     console.log(`${value.name}은 ${value.age}살 입니다`);
   }
 }
